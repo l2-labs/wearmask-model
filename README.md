@@ -43,7 +43,33 @@ New reality requires extended precautions. While others fight about the need of 
 
 ## Model accuracy
 
-Released model accuracy is 94.7% on our testing data. If you need a model with higher accuracy please consider using model that is [licensed for commercial usage](#contact) - it's accuracy is about 99%.
+Released model accuracy is 94.7% on our testing data. If you need a model with higher accuracy (>99%) please contact us at admin@l2-labs.com. The provided model is available free of charge for non-profit organisations and also on commercial bases for others. We could provide you with the model compatible with various architectures MobileNet, ResNet, etc and frameworks like TF, pytorch and others. We also provide integration services.
+
+
+## Use cases
+
+Use WearMask model to detect person who do not wear mask in crowd on the street at night:
+
+[![WearMask at night](https://img.youtube.com/vi/9NTc5iziRQU/0.jpg)](https://www.youtube.com/watch?v=9NTc5iziRQU)
+
+Use WearMask model to detect person who do not wear mask in various scenes:
+
+[![WearMask various scenes](https://img.youtube.com/vi/kU26LuM_Azc/0.jpg)](https://www.youtube.com/watch?v=kU26LuM_Azc)
+
+WearMask recognizes correctness of mask/respirators usage:
+
+[![WearMask correctly applied](https://img.youtube.com/vi/6TxmM_1iCvA/0.jpg)](https://www.youtube.com/watch?v=6TxmM_1iCvA)
+
+
+WearMask model is used in WearMask Android app to enforce mask usage for small business. Currently the application is on the google publish review, please send request to admin@l2-labs.com if you want to be in first 100 private testers.
+
+Application scans live video stream from device camera and perform analysis is order to detect person who doesn't wear mask:
+![Application screenshot](https://l2-labs.com/storage/app/media/git/26b678d4-b5ad-4f57-bc55-7901bbde0918.jpeg)
+
+If it detects somebody wihtout correctly applied mask/respirators it alarms with audio and visual notifications:
+![Application screenshot](https://l2-labs.com/storage/app/media/git/0ef737dd-76c4-4cb5-b820-f28d8d84d3b1.jpeg)
+
+It's specially designed to be used on big screen smartphones or tablets which can be installed in public entrance areas in such a way that the one can see visual notificationson on the screen in case of mandatory face mask violation
 
 
 ## Getting Started
@@ -82,7 +108,7 @@ python test.py images/49737641203_16019ec424_o.jpg
 
 ## Dataset
 
-Model was trained on data which were available without any legal or ethical restrictions on time of training. We couldn't share the dataset in any case as model was trained in online mode without actual dataset collecting and storing. If your business need the similar online training approach feel free to contact admin@l2-labs.com to discuss feasibility of using our tools to train your models.
+Model was trained on data which were available without any legal or ethical restrictions on time of training. Current dataset version is composed of >1M data samples. We are constantly improving coverage of diverse use cases to reduce biases. We couldn't share the dataset in any case as model was trained in online mode without actual dataset collecting and storing. If your business need the similar online training approach feel free to contact admin@l2-labs.com to discuss feasibility of using our tools to train your models.
 
 ## License
 Source code in the repository is distributed under MIT license
