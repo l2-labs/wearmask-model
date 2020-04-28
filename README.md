@@ -1,8 +1,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/l2-labs/wearmask-model">
-    <img src="images/logo.svg" alt="Logo" width="80" height="80">
+  <a href="https://l2-labs.com/product/wearmask-neural-network">
+    <img src="https://l2-labs.com/storage/app/media/git/logo.svg" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">WEARMASK Model</h3>
