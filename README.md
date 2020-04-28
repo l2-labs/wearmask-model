@@ -13,9 +13,9 @@
     Free for none-commercial organizations
     <br />
     <br />
-    <a href="https://github.com/github_username/repo/issues">Report Bug</a>
+    <a href="https://github.com/l2-labs/wearmask-model/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo/issues">Request Feature</a>
+    <a href="https://github.com/l2-labs/wearmask-model/issues">Request Feature</a>
     ·
     <a href="https://l2-labs.com">Request Commercial License</a>
   </p>
