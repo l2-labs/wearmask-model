@@ -12,6 +12,7 @@
     <br />
     Free for none-commercial organizations
     <br />
+    <a href="https://www.youtube.com/channel/UCvIxZXAE_N2MsNG7YBJgukw">Demo on YouTube</a>
     <br />
     <a href="https://github.com/l2-labs/wearmask-model/issues">Report Bug</a>
     ·
