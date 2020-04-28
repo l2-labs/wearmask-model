@@ -37,27 +37,46 @@
 ## About The Project
 
 New reality requires extended precautions. While others fight about the need of PPE (personal protective equipment) usage to flat the curve we just want to provide automatic solution for those who wants to enforce PPE usage by any reason. Thus we trained Deep Learning Convolution network to classify images to two classes:
-- face with properly applied PPE (i.e. mouth and nose are covered with surgiral or hand-made mask or respirator
 - face with not-protected mouth and nose. It includes the cases when mouth or nose are not visible, for example covered by motorcycle helm as we cannot guarantee that it's covered by PPE under helm.
+- face with properly applied PPE (i.e. mouth and nose are covered with surgiral or hand-made mask or respirator)
+
+## Model accuracy
+
+Released model accuracy is 94.7% on our testing data. If you need a model with higher accuracy please consider using model that is [licensed for commercial usage](#contact) - it's accuracy is about 99%.
 
 
 ## Getting Started
 In order to use the model the one needs to clone repository, install dependencies, download and unpack model weights and it's ready to perform image analysis
 
-### Prerequisites TBD
+### Prerequisites
 We provide requirements.txt file to automatically setup environment with pip but generally prerequisites are:
 
 1. Python 3.6+
+2. Tensorflow 2.2.0+
+3. Pillow
 
-### Installation TBD
+### Installation
 
-1. Setup python dependencies
-2. Download and unpack the model weights
-2. Run the code
+1. Setup python dependencies:
+
+```
+pip install -r requirements.txt
+```
+
+2. Download from google storage [pre-trained model](https://drive.google.com/file/d/1ZVCb7Ronzqvrv5Ctc8anVlF0nRDy2flA/view?usp=sharing) and unpack it to the pretrained folder:
+
+```
+tar -xzf wearmask-1587835694.tar.gz
+```
 
 
+## Usage
+Original [image from flickr](https://www.flickr.com/photos/youngshanahan/49737641203/)
 
-## Usage TBD
+Execute the command to process the image:
+```
+python test.py images/49737641203_16019ec424_o.jpg
+```
 
 
 ## Dataset
@@ -66,9 +85,8 @@ Model was trained on data which were available without any legal or ethical rest
 
 ## License
 Source code in the repository is distributed under MIT license
-
 Pre-trained Model weights are distributed under CC BY-NC-ND 4.0
 
 
 ## Contact
-Feel free to contact via e-mail admin@l2-labs.com
+If you need model for commercial usage or model as Service or have some special requests feel free to contact via e-mail admin@l2-labs.com

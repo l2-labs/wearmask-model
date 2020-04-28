@@ -1,0 +1,2 @@
+pillow
+tensorflow-gpu==2.2.0rc3
