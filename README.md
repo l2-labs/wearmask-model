@@ -27,6 +27,9 @@
 ## Table of Contents
 
 * [About the Project](#about-the-project)
+* [Model accuracy](#model-accuracy)
+* [Use cases](#use-cases)
+* [Android application](#android-application)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
@@ -60,6 +63,8 @@ WearMask recognizes correctness of mask/respirators usage:
 
 [![WearMask correctly applied](https://img.youtube.com/vi/6TxmM_1iCvA/0.jpg)](https://www.youtube.com/watch?v=6TxmM_1iCvA)
 
+
+## Android application
 
 WearMask model is used in WearMask Android app to enforce mask usage for small business. Currently the application is on the google publish review, please send request to admin@l2-labs.com if you want to be in first 100 private testers.
 
