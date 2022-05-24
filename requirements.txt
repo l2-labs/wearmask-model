@@ -1,2 +1,2 @@
 pillow
-tensorflow-gpu==2.2.0rc3
+tensorflow-gpu==2.6.4
